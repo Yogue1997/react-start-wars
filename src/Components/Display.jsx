@@ -1,14 +1,12 @@
 
-
 function Display(props) {
 
 
 
 
     return (
-        <div>
-            <p >Name  : {props.name} </p>
-            
+        <div id="main">
+            <p id="element"> {props.name} </p>
         </div>
     )
 }

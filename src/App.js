@@ -1,11 +1,13 @@
 import './App.css';
 import StarShip from './Components/StarShip';
+import Header from './Components/Header';
+
 function App() {
 
   return (
-    
     <div className="App">
-      <StarShip/>
+      <Header />
+      <StarShip />
     </div>
   );
 }

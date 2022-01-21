@@ -1,7 +1,6 @@
 // The parts that I commented are the one the I need to work on
 // I wanted to load more data because there are like 4 more pages to display
 
-
 import React, { useState, useEffect } from 'react';
 import Display from './Display';
 
@@ -45,7 +44,7 @@ function StarShip() {
 
 
     return (
-        <div>
+        <div id='parent'>
             {data.map((dataName, index) =>(
                 <Display name = {dataName.name} key={index}/>
             ))}
